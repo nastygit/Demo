@@ -1,0 +1,20 @@
+body {
+background-color: aquamarine;
+}
+
+h1 {
+    color: red;
+
+}
+
+.large {
+    font-size: 40px;
+}
+
+.topnav
+    {
+        font-size: 40px;
+        background-color: gray;
+        color: antiquewhite;
+        background-image: image-set("images/coldlazarus");
+    }
