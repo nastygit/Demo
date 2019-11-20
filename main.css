@@ -1,5 +1,7 @@
 body {
-background-color: aquamarine;
+background-color: black;
+color: white;
+/* background-image: url("images/digitalcloud.jpg") */
 }
 
 h1 {
@@ -18,3 +20,62 @@ h1 {
         color: antiquewhite;
         background-image: image-set("images/coldlazarus");
     }
+
+.footy 
+{
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+.netcontainer 
+{
+    width:100%;
+    display: flex;
+    align-content: space-between;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+}
+.box {
+    color:black;
+    font-size: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: right;
+    padding:5px;
+    width: 50px;
+    height: 20px;
+}
+  
+  .box1 { background:#eccc68;}
+  .box2 { 
+      background:#ff6348;
+        flex:2;}
+  .box3 { background:#ff7f50;}
+  .box4 { background:#ff4757;}
+  .box5 { background:#f1c40f;}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+  
+  
+}
+
+.Question {
+    font-weight: bold;
+    color: red;
+}
+
+.bytes{
+    background-image: url("images/iu.gif")
+     /* alt="network" width="900" height="350">
+
+background-image: url("images/digitalcloud.jpg") */
+}
