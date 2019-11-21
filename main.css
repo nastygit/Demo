@@ -76,6 +76,13 @@ h1 {
 .bytes{
     background-image: url("images/iu.gif")
      /* alt="network" width="900" height="350">
-
 background-image: url("images/digitalcloud.jpg") */
+}
+.bits{
+    background-image: url("images/stylish-ab.jpg")
+}
+
+.linky
+{
+color:yellow;
 }
